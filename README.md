@@ -6,29 +6,29 @@ Para utilizar este projeto siga os passos a seguir:
 
 - Crie um ambiente virtual para este projeto:
 
-    python -m venv env
+      python -m venv env
 
 - Ative o ambiente virtual:
 
     - Windows PowerShell
 
-        env\Scripts\Activate.ps1
+          env\Scripts\Activate.ps1
 
     - Linux/MacOS
 
-        source env/bin/activate
+          source env/bin/activate
 
 - No projeto existe um arquivo requirements.txt que possui todas as dependências necessárias. Para instalá-las basta utilizar o comando:
 
-    pip install -r requirements.txt
+      pip install -r requirements.txt
 
 - Vamos criar as tabelas do banco de dados:
 
-    python manage.py migrate
+      python manage.py migrate
 
 - Pronto! Agora execute o servidor.
 
-    python manage.py runserver
+      python manage.py runserver
 
 O projeto possui as seguintes funcionalidades implementadas:
 
